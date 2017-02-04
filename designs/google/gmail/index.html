@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gmail</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/designs/google/gmail/assets/css/custom.css">
+</head>
+<body>
+<!--Container-->
+<div class="container-fluid" >
+    <!--Row-->
+    <div class="row">
+  <!--col-lg--->
+        <div class="col-lg-2" style="margin-top: 18px"><!--Col For Img-->
+            <img src="/designs/google/gmail/assets/img/googlelogo_color_272x92dp.png" alt="google" style="92px; height: 33px">
+        </div><!--Col-lg-->
+        <div class="col-lg-offset-0.5 col-lg-5"><!--Col---><!--Col-forinput-->
+            <input type="text" class="form-control" style="margin-top: 20px">
+        </div><!--Col-input-->
+        <button class=" btn btn-default glyphicon glyphicon-search" style="margin-top: 20px"></button>
+
+            <button type="button" class="btn btn-default" aria-label="Left Align"  style="margin: 20px 0 0 350px; ">
+                <span class="glyphicon glyphicon-glyphicon glyphicon-th" aria-hidden="true"></span>
+            </button>
+
+            <button type="button" class="btn btn-default" aria-label="Left Align"  style="margin: 20px 0 0 10px;">
+                <span class="glyphicon glyphicon-bell" aria-hidden="true"></span>
+            </button>
+
+            <button type="button" class="btn btn-default" aria-label="Left Align"  style="margin: 20px 0 0 10px">
+                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            </button>
+    </div><!--Row-->
+
+    <div class="row"><!--Row-->
+        <div class="col-lg-12"> <!--Col-->
+            <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: white;  color: #D74937;margin-top:35px; ">
+                <span style="font-family:Arial,sans-serif; font-size: large">Gmail</span> <span class="caret" ></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Task</a></li>
+            </ul>
+
+            <div class="btn-group" style="margin-top: 35px; margin-left: 10px">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">None</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">Unread</a></li>
+                    <li><a href="#">Starred</a></li>
+                    <li><a href="#">Unstarred</a></li>
+                </ul>
+
+        </div><!--Col-->
+    </div><!--Row-->
+</div><!--Container-->
+
+<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
